@@ -1,0 +1,64 @@
+ /* General body styling */
+body {
+  background-color: #f0f8ff; /* Light pastel blue */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container */
+form {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading */
+h1 {
+  color: #4a90e2; /* Soft blue */
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Button */
+button {
+  background-color: #4a90e2; /* Soft blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #357ab8; /* Slightly darker blue */
+}
+
+/* Labels */
+label {
+  color: #333333; /* Dark gray */
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
